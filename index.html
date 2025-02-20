@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>{{ Titulo }}</title>
+
+  <link rel="stylesheet" type="text/css" href="../static/../static/css/bootstrap.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <link href="../static/css/style.css" rel="stylesheet" />
+  <link href="../static/css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="hero_area">
+    <header class="header_section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-11 offset-lg-1">
+            <nav class="navbar navbar-expand-lg custom_nav-container ">
+              <a class="navbar-brand" href="/">
+                <img src="../static/images/logo.png" alt="">
+                <span>
+                  {{ Titulo }}
+                </span>
+              </a>
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+                  <ul class="navbar-nav  ">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/cadastro"> Cadastro de Imagem</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/galeria"> Galeria </a>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class=" slider_section position-relative">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-5 offset-md-1 ">
+                  <div class="detail_box">
+                    <h1>
+                      API <br>
+                      Imagens
+                    </h1>
+                    <p>
+                      Você está desenvolvendo um site que integra uma API externa para o cadastro de imagens em um banco de dados.
+                    </p>
+                    <div class="btn-box">
+                      <a href="/cadastro" class="btn-1">
+                        Cadastro
+                      </a>
+                      <a href="/galeria" class="btn-2">
+                        Galeria
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 px-0">
+                  <div class="img-box">
+                    <img src="../static/images/slider-img.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Cadastrar Imagens
+        </h2>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="../static/images/about-img.jpg" alt="">
+          <div class="about_img-bg">
+            <img src="../static/images/about-img-bg.png" alt="">
+          </div>
+        </div>
+        <div class="detail-box">
+          <p>
+            Na seção de cadastro, as imagens serão fornecidas de forma aleatória através de uma API integrada. Os usuários terão a opção de visualizar uma nova imagem aleatória ou salvar a imagem no banco. Ao encontrar uma imagem que desejam salvar, poderão clicar em "Salvar" e adicionar um título para a imagem. Estas imagens serão então armazenadas no banco de dados local.
+          </p>
+          <div>
+            <a href="/cadastro">
+              Acessar o Cadastro
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="portfolio_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Galeria
+        </h2>
+        <p>
+         A galeria exibirá as imagens que foram salvas pelos usuários. Será organizada em um layout de grade, permitindo aos usuários navegar visualmente por suas coleções.
+        </p>
+      </div>
+      <div class="portfolio_container layout_padding2">
+        <div class="box-1">
+          <div class="img-box b-1">
+            <img src="../static/images/p-1.jpg" alt="">
+            <div class="btn-box">
+            </div>
+          </div>
+          <div class="img-box b-2">
+            <img src="../static/images/p-2.jpg" alt="">
+            <div class="btn-box">
+            </div>
+          </div>
+        </div>
+        <div class="box-2">
+          <div class="box-2-top">
+            <div class="img-box b-3">
+              <img src="../static/images/p-3.jpg" alt="">
+              <div class="btn-box">
+              </div>
+            </div>
+          </div>
+          <div class="box-2-top2">
+            <div class="img-box b-4">
+              <img src="../static/images/p-4.jpg" alt="">
+              <div class="btn-box">
+              </div>
+            </div>
+          </div>
+          <div class="box-2-btm">
+            <div class="img-box b-5">
+              <img src="../static/images/p-5.jpg" alt="">
+              <div class="btn-box">
+              </div>
+            </div>
+            <div class="img-box b-6">
+              <img src="../static/images/p-6.jpg" alt="">
+              <div class="btn-box">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="see_btn">
+        <a href="/galeria">
+          Acessar a Galeria
+        </a>
+      </div>
+    </div>
+
+  </section>
+  <section class="container-fluid footer_section">
+    <div class="container">
+      <p>
+        &copy; 2024 All Rights Reserved
+      </p>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="../static/js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="../static/js/bootstrap.js"></script>
+</body>
+
+</html>
